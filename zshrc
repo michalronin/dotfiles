@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Ronin/.oh-my-zsh
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -53,7 +52,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/Users/Ronin/.rvm/bin"
+export PATH="/usr/local/bin:$PATH" >> ~/.zshrc
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
